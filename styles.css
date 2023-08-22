@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+.hero{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	width:100%;
+}
+.disc{
+	width:30%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+img{
+	width:65%;
+	height:200px;
+	object-fit:cover;
+}
+button{
+	border:none;
+	padding: 1rem;
+	background-color:red;
+	color:white;
+	border-radius:5px;
+}
+h1{
+	font-size:25px;
+}
+a: hover{
+	cursor:pointer;
+}
